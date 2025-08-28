@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    /* background: url('/build/assets/Login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed; */
+    background-color: #f5dcc6;
+}
+
+.sidebar {
+    position: relative;
+    height: 100%;
+    width: 150px;
+    background: #d6aa85;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.profile img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+
+.profile .username {
+    flex: 1;
+    min-width: 0;
+}
+
+.profile .username p {
+    margin: 0;
+    font-size: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sidebar ul {
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar ul li:last-child {
+    position: absolute;
+    bottom: 10px;
+}
+
+svg {
+    height: 15px;
+    width: 15px;
+}
